@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import "_custom.scss";
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@media screen and (max-width: 931px) {
+    .bx{
+       /* flex-direction: column; */
+       justify-content: center;
+       flex-wrap: wrap;
+       /* width: fit-content;
+       justify-content: center;
+       align-items: center; */
+    }
+}
+body{
+    background-color: #eeeeee;
+}
+#hd
+{
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top: 5vh;
+    /* font-weight: bold; */
+
+}
+.txt
+{
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    /* font-weight: bold; */
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.bx{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+   
+
+}
+.cb{
+    margin: 1vw;
+    border: 0.16vh solid black;
+    border-radius: 2vh;
+    box-shadow: 1vh 1vh 0.5vh rgb(123, 119, 119);
+    padding: 2vh;
+    justify-content:space-evenly;
+    
+}
+.cb:hover{
+    transition-duration: 0.4s;
+    box-shadow: 2vh 2vh 1vh rgb(123, 119, 119);
+    z-index: 1;
+}
+.ct{
+    text-align: center;
+    font-size: 2vh;
+    margin: 1vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    /* font-weight: bold; */
+}
+.bd
+{
+    font-size: 2.5vh;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1vh;
+}
+.b-t{
+    font-weight: bold;
+}
+.btb{
+    background-color: black;
+
+    width: fit-content;
+    height: fit-content;
+    padding-right: 4vh;
+    padding-left: 3vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    color: white;
+    font-size: 2.5vh;
+    align-items: center;
+    
+}
+.btj{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fmg{
+    /* height: 4vh;
+    width: 8vh; */
+    width: 20vh;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+}
+.og{
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
